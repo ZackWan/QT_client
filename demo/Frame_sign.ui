@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Frame_sign</class>
+ <widget class="QWidget" name="Frame_sign">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>418</width>
+    <height>311</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QWidget" name="view_sign" native="true">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>401</width>
+     <height>291</height>
+    </rect>
+   </property>
+   <widget class="QWidget" name="horizontalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>20</y>
+      <width>261</width>
+      <height>261</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="ImageView"/>
+   </widget>
+   <widget class="QWidget" name="verticalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>20</y>
+      <width>101</width>
+      <height>261</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="RightView">
+     <item>
+      <widget class="QLabel" name="ImageCapture">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QWidget" name="view_first" native="true">
+       <widget class="QPushButton" name="buttonCapture">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>20</y>
+          <width>99</width>
+          <height>23</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>捕捉</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="buttonSave">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>50</y>
+          <width>99</width>
+          <height>23</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>保存</string>
+        </property>
+       </widget>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="buttonQuit">
+       <property name="text">
+        <string>结束签到</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QWidget" name="view_start" native="true">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>90</y>
+     <width>111</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <widget class="QPushButton" name="btn_start">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>10</y>
+      <width>71</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>开始签到</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

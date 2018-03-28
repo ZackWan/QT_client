@@ -1,0 +1,16 @@
+<RCC>
+    <qresource prefix="/">
+        <file>assets/StyleSheet.css</file>
+        <file>assets/img/addButton.png</file>
+        <file>assets/img/addLinesButton.png</file>
+        <file>assets/img/addNodesButton.png</file>
+        <file>assets/img/back.png</file>
+        <file>assets/img/finalNode.png</file>
+        <file>assets/img/guideTitle.png</file>
+        <file>assets/img/refresh.png</file>
+        <file>assets/img/require.png</file>
+        <file>assets/img/save.png</file>
+        <file>assets/img/startNode.png</file>
+        <file>assets/img/transfer.png</file>
+    </qresource>
+</RCC>

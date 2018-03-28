@@ -1,0 +1,100 @@
+﻿*{
+    font-family:"微软雅黑";
+    font:14px;
+}
+QDialog{
+    background:#f2f2f2;
+}
+QLabel{
+    color:#00a99d;
+}
+QLineEdit {
+        border-radius: 4px;
+        height: 30px;
+        font:14px;
+        padding-bottom:-2px;
+        border: 1px solid #eeeeee;
+/*        border-bottom:1px solid #00a99d;*/
+        background: rgba(255,255,255,.8);
+}
+QLineEdit:enabled {
+        color: rgb(84, 84, 84);
+}
+QLineEdit:enabled:hover, QLineEdit:enabled:focus {
+        color: rgb(51, 51, 51);
+        background: rgba(255,255,255,1);
+}
+QLineEdit:!enabled {
+        color: rgb(80, 80, 80);
+}
+
+QPushButton{
+        border-radius: 6px;
+        border: none;
+        width: 75px;
+        height: 26px;
+}
+QPushButton:enabled {
+        background: #7bd6d3;
+        color: white;
+}
+QPushButton:!enabled {
+        background: rgb(180, 180, 180);
+        color: white;
+}
+QPushButton:enabled:hover{
+        background: #65dbdb;
+}
+QPushButton:enabled:pressed{
+        background: #00a098;
+}
+
+QTabWidget::pane {
+    border: none;
+    border-radius: 0px; 
+    position: absolute;
+    background: #f2f2f2;
+}
+
+QTabBar::tab:right {
+    font: 16pt "微软雅黑";
+    color:white;
+background-color:rgb(0,169,157);
+}
+
+QTabBar::tab:hover{
+    color: #efefef;
+    background-color:#05799d;
+}
+
+QTabBar::tab:selected{
+/*    font: bold;*/
+    color: #00a99d;
+    background-color: #f2f2f2;
+}
+
+QTabBar::tab:hover:!selected{
+/*    padding-right: 4px; 不能用padding*/
+}
+QTableView {
+        border: 1px solid #dddddd;
+        background:white;
+}
+QTableView::item {
+        padding-left: 5px;
+        padding-right: 5px;
+        border: none;
+        background: white;
+}
+QTableView::item:selected {
+        background: rgba(255, 255, 255, 100);
+        color:#ff0000;
+}
+QTableView::item:selected:!active {
+        color: rgb(65, 65, 65);
+}
+QTableView::indicator {
+        width: 20px;
+        height: 50px;
+}
+

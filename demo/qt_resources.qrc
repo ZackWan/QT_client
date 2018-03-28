@@ -1,0 +1,21 @@
+<RCC>
+    <qresource prefix="/">
+        <file>assets/img/addButton.png</file>
+        <file>assets/img/back.png</file>
+        <file>assets/img/btn_close.png</file>
+        <file>assets/img/btn_max.png</file>
+        <file>assets/img/btn_min.png</file>
+        <file>assets/img/change_course.png</file>
+        <file>assets/img/change_login.png</file>
+        <file>assets/img/face_sign.png</file>
+        <file>assets/img/finalNode.png</file>
+        <file>assets/img/manual_sign.png</file>
+        <file>assets/img/query.png</file>
+        <file>assets/img/refresh.png</file>
+        <file>assets/img/require.png</file>
+        <file>assets/img/save.png</file>
+        <file>assets/img/stumanage.png</file>
+        <file>assets/img/transfer.png</file>
+        <file>assets/StyleSheet.css</file>
+    </qresource>
+</RCC>

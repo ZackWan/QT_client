@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Frame_stuManage</class>
+ <widget class="QWidget" name="Frame_stuManage">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>492</width>
+    <height>384</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QTabWidget" name="tabWidget">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>10</y>
+     <width>461</width>
+     <height>351</height>
+    </rect>
+   </property>
+   <property name="currentIndex">
+    <number>0</number>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>20</width>
+     <height>20</height>
+    </size>
+   </property>
+   <widget class="QWidget" name="stu_add">
+    <attribute name="icon">
+     <iconset resource="resource.qrc">
+      <normaloff>:/assets/img/addButton.png</normaloff>:/assets/img/addButton.png</iconset>
+    </attribute>
+    <attribute name="title">
+     <string>添加学生</string>
+    </attribute>
+    <widget class="QWidget" name="view_add_input" native="true">
+     <property name="geometry">
+      <rect>
+       <x>70</x>
+       <y>50</y>
+       <width>201</width>
+       <height>211</height>
+      </rect>
+     </property>
+     <widget class="QPushButton" name="btn_addFace">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>160</y>
+        <width>75</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>+ 添加照片</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="tip">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>40</y>
+        <width>111</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>请输入学号和姓名</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>70</y>
+        <width>181</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <layout class="QGridLayout" name="gridLayout">
+       <item row="0" column="0">
+        <widget class="QLabel" name="addstu_id_Label">
+         <property name="text">
+          <string>学号:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="1">
+        <widget class="QLineEdit" name="addstu_id_LineEdit"/>
+       </item>
+       <item row="1" column="0">
+        <widget class="QLabel" name="addstu_name_Label">
+         <property name="text">
+          <string>姓名:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="1">
+        <widget class="QLineEdit" name="addstu_name_LineEdit"/>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="stu_update">
+    <attribute name="icon">
+     <iconset resource="resource.qrc">
+      <normaloff>:/assets/img/refresh.png</normaloff>:/assets/img/refresh.png</iconset>
+    </attribute>
+    <attribute name="title">
+     <string>更新学生照片</string>
+    </attribute>
+    <widget class="QWidget" name="view_update_input" native="true">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>50</y>
+       <width>221</width>
+       <height>201</height>
+      </rect>
+     </property>
+     <widget class="QPushButton" name="btn_updateFace">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>120</y>
+        <width>75</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>更新照片</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>50</y>
+        <width>171</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_2">
+       <item row="0" column="1">
+        <widget class="QLineEdit" name="tb_id_update"/>
+       </item>
+       <item row="1" column="0">
+        <widget class="QLabel" name="upstu_name_Label">
+         <property name="text">
+          <string>姓名:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="0">
+        <widget class="QLabel" name="upstu_id_Label">
+         <property name="text">
+          <string>学号:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="1">
+        <widget class="QLabel" name="tip_name_update">
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="stu_delete">
+    <attribute name="icon">
+     <iconset resource="resource.qrc">
+      <normaloff>:/assets/img/finalNode.png</normaloff>:/assets/img/finalNode.png</iconset>
+    </attribute>
+    <attribute name="title">
+     <string>删除学生</string>
+    </attribute>
+    <widget class="QPushButton" name="btn_delete">
+     <property name="geometry">
+      <rect>
+       <x>140</x>
+       <y>170</y>
+       <width>75</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>删除</string>
+     </property>
+    </widget>
+    <widget class="QWidget" name="">
+     <property name="geometry">
+      <rect>
+       <x>80</x>
+       <y>100</y>
+       <width>171</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <layout class="QGridLayout" name="gridLayout_3">
+      <item row="0" column="0">
+       <widget class="QLabel" name="destu_id_Label">
+        <property name="text">
+         <string>学号:</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QLineEdit" name="tb_id_delete"/>
+      </item>
+      <item row="1" column="0">
+       <widget class="QLabel" name="destu_name_Label">
+        <property name="text">
+         <string>姓名:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1">
+       <widget class="QLabel" name="tip_name_delete">
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources>
+  <include location="resource.qrc"/>
+ </resources>
+ <connections/>
+</ui>
